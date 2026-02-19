@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-elastic-load-balancing-v2`](https://www.npmjs.com/package/@aws-sdk/client-elastic-load-balancing-v2/v/3.202.0).
+[`@aws-sdk/client-elastic-load-balancing-v2`](https://www.npmjs.com/package/@aws-sdk/client-elastic-load-balancing-v2/v/3.204.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.202.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.204.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-yX5RDhpxI6rRlyo4qcdrxJYOOHnFy37P0Y3lj3uq0cxSjN8WqDrEt2AFM6ndf9Bu
+sha384-8P09Fody0ij29As5VJA8N4xBMSjuXkEyb4A9rt904QMq9Kdm098wa003InI6ffe5
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-elastic-load-balancing-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.202.0/index.min.mjs"
+            "@aws-sdk/client-elastic-load-balancing-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.204.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.202.0/index.min.mjs": "sha384-yX5RDhpxI6rRlyo4qcdrxJYOOHnFy37P0Y3lj3uq0cxSjN8WqDrEt2AFM6ndf9Bu"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.204.0/index.min.mjs": "sha384-8P09Fody0ij29As5VJA8N4xBMSjuXkEyb4A9rt904QMq9Kdm098wa003InI6ffe5"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-elastic-load-balancing-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.202.0/index.min.mjs"
+                        "@aws-sdk/client-elastic-load-balancing-v2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.204.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.202.0/index.min.mjs": "sha384-yX5RDhpxI6rRlyo4qcdrxJYOOHnFy37P0Y3lj3uq0cxSjN8WqDrEt2AFM6ndf9Bu"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-elastic-load-balancing-v2@3.204.0/index.min.mjs": "sha384-8P09Fody0ij29As5VJA8N4xBMSjuXkEyb4A9rt904QMq9Kdm098wa003InI6ffe5"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.202.0`)
+* Always pin to a specific version (`@3.204.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-elastic-load-balancing-v2/blob/refs/tags/3.202.0/LICENSE
+https://github.com/cloud-sdk-builds/client-elastic-load-balancing-v2/blob/refs/tags/3.204.0/LICENSE
 ```
 
 ---
